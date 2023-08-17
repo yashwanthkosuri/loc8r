@@ -1,32 +1,32 @@
 /* GET 'home' page */
 module.exports.homelist = function(req, res) {
     res.render('locations-list', {
-        title: 'Loc8r - find a place to work with wifi',
+        title: 'Loc8r - Find a place to work with wifi',
         pageHeader: {
             title: 'Loc8r',
             strapline: 'Find places to work with wifi near you!'
         },
         sidebar: "Looking for wifi and a seat? Loc8r helps you find places to work when out and about. Perhaps with coffee, cake or a pint? Let Loc8r help you find the place you're looking for.",
         locations: [{
-            name: 'Amaravathi',
-            address: '125 High Street, Reading, RG6 1PS',
-            rating: 3,
-            facilities: ['Hot drinks', 'Food', 'Premium wifi'],
-            distance: '100m',
-            href: '/location'
-        }, {
-            name: 'Gismat',
-            address: '125 High Street, Reading, RG6 1PS',
+            name: 'Cafe Niloufer',
+            address: '11-5-422/C/B, Lakdikapul',
             rating: 4,
             facilities: ['Hot drinks', 'Food', 'Premium wifi'],
-            distance: '200m',
+            distance: '1.0 km from Birla Mandir',
+            href: '/location'
+        }, {
+            name: 'Beyond Coffee',
+            address: 'Plot 237, Road 36, Jubilee Hills',
+            rating: 4,
+            facilities: ['Hot drinks', 'Food', 'Premium wifi'],
+            distance: '2.5 km from Golconda Fort',
             href: '/location/2'
         }, {
-            name: 'Tree Stories Cafe',
-            address: '125 High Street, Reading, RG6 1PS',
+            name: 'Roastery Coffee House',
+            address: 'House 418, 8/2/287/12, Road 14, Banjara Hills',
             rating: 2,
             facilities: ['Food', 'Premium wifi'],
-            distance: '250m',
+            distance: '2.4 km from Golconda Fort',
             href: '/location/3'
         }]
     });
@@ -37,16 +37,16 @@ module.exports.homelist = function(req, res) {
     res.render('location-info', {
         title: 'Amaravathi',
         pageHeader: {
-            title: 'Amaravathi'
+            title: 'Cafe Niloufer'
         },
         sidebar: {
             context: 'is on Loc8r because it has accessible wifi and space to sit down with your laptop and get some work done.',
             callToAction: 'If you\'ve been and you like it - or if you don\'t - please leave a review to help other people just like you.'
         },
         location: {
-            name: 'Amaravathi',
-            address: '125 High Street, Reading, RG6 1PS',
-            rating: 3,
+            name: 'Cafe Niloufer',
+            address: '11-5-422/C/B, Lakdikapul',
+            rating: 4,
             facilities: ['Hot drinks', 'Food', 'Premium wifi'],
             coords: {
                 lat: 51.455041,
