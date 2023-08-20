@@ -13,6 +13,8 @@ Getting MEAN Second Edition is published by Manning, and teaches readers how to 
 Loc8r lists nearby places with Wi-Fi where people can go
 to get some work done. It also displays facilities, opening times, a rating, and a location map for each place. Users will be able to log in and submit ratings and reviews.
 
+https://yashwanthkosuri-loc8r.cyclic.cloud/
+
 ### <span id='fullstackdevelopment'>What Does Fullstack Development Mean?</span>
 When we talk about full-stack development, we’re really talking about **developing all parts of a website or application.** The full stack starts with the _database_ and
 _web server_ in the back end, contains _application logic_ and _control_ in the middle, and goes all the way through to the _user interface_ at the front end.
