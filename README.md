@@ -4,7 +4,7 @@ The 'Loc8r' application is built through the course of the book **Getting MEAN S
 Getting MEAN Second Edition is published by Manning, and teaches readers how to develop web applications end-to-end using the MEAN stack.
 
 ![The end-product](https://github.com/yashwanthkosuri/Loc8r/assets/87197517/c0a1a5ff-5850-414c-8659-7467158f4179)
-
+*Caption: The end-product*
 
 ## Table of Content
 <ol>
