@@ -8,6 +8,7 @@
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "http-errors": "~1.6.3",
     "jade": "^0.29.0",
@@ -18,7 +19,6 @@
   },
   "description": "The 'Loc8r' application is built through the course of the book **Getting MEAN Second Edition.**",
   "main": "app.js",
-  "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC"
