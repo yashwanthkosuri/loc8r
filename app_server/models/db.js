@@ -34,3 +34,6 @@ process.on('SIGTERM', () => {
  process.exit(0);
  });
 });
+
+// BRING IN YOUR SCHEMAS & MODELS
+require('./locations');
