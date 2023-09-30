@@ -4,7 +4,7 @@ The 'Loc8r' application is built through the course of the book **Getting MEAN S
 Getting MEAN Second Edition is published by Manning, and teaches readers how to develop web applications end-to-end using the MEAN stack.
 
 <p align="center">
-  <img src="https://freecontent.manning.com/wp-content/uploads/Holmes_PaMSA_05.png" alt="The end-product">
+  <img src="https://uploads.sitepoint.com/wp-content/uploads/2017/07/1499952370fig-5-end-product.png" alt="The end-product">
   <br>
   <em>The end-product</em>
 </p>
@@ -20,7 +20,7 @@ Getting MEAN Second Edition is published by Manning, and teaches readers how to 
 Loc8r lists nearby places with Wi-Fi where people can go
 to get some work done. It also displays facilities, opening times, a rating, and a location map for each place. Users will be able to log in and submit ratings and reviews.
 
-You can access the deployed app here: [Loc8r App](https://yashwanthkosuri-loc8r.cyclic.cloud/)
+You can access the deployed app here: [Loc8r App]([https://yashwanthkosuri-loc8r.cyclic.cloud/](https://yashwanthkosuri-loc8r.cyclic.cloud/))
 
 ### <span id='fullstackdevelopment'>What Does Fullstack Development Mean?</span>
 When we talk about full-stack development, we’re really talking about **developing all parts of a website or application.** The full stack starts with the _database_ and
