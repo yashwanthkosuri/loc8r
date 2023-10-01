@@ -42,7 +42,7 @@ module.exports.homelist = function(req, res) {
         },
         location: {
             name: 'Starcups',
-            address: '11-5-422/C/B, Lakdikapul',
+            address: '125 High Street, Reading, RG6 1PS',
             rating: 3,
             facilities: ['Hot drinks', 'Food', 'Premium wifi'],
             coords: {
