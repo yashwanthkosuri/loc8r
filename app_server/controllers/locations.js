@@ -181,10 +181,10 @@ module.exports.homelist = function(req, res) {
 
   /* GET 'Add review' page */
   module.exports.addReview1 = function(req, res) {
-    res.render('location-review-form', {
-        title: 'Review Amaravathi on Loc8r',
+    res.render('location-review-form1', {
+        title: 'Review Starcups on Loc8r',
         pageHeader: {
-            title: 'Review Amaravathi'
+            title: 'Review Starcups'
         }
     });
   };
@@ -192,9 +192,9 @@ module.exports.homelist = function(req, res) {
   /* GET 'Add review' page */
   module.exports.addReview2 = function(req, res) {
     res.render('location-review-form2', {
-        title: 'Review Gismat on Loc8r',
+        title: 'Review Cafe Hero on Loc8r',
         pageHeader: {
-            title: 'Review Gismat'
+            title: 'Review Cafe Hero'
         }
     });
   };
@@ -202,9 +202,9 @@ module.exports.homelist = function(req, res) {
   /* GET 'Add review' page */
   module.exports.addReview3 = function(req, res) {
     res.render('location-review-form3', {
-        title: 'Review Tree Stories Cafe on Loc8r',
+        title: 'Review Burger Queen on Loc8r',
         pageHeader: {
-            title: 'Review Tree Stories Cafe'
+            title: 'Review Burger Queen Cafe'
         }
     });
   };
