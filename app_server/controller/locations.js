@@ -8,25 +8,25 @@ module.exports.homelist = function(req, res) {
         },
         sidebar: "Looking for wifi and a seat? Loc8r helps you find places to work when out and about. Perhaps with coffee, cake or a pint? Let Loc8r help you find the place you're looking for.",
         locations: [{
-            name: 'Cafe Niloufer',
-            address: '11-5-422/C/B, Lakdikapul',
-            rating: 4,
+            name: 'Starcups',
+            address: '125 High Street, Reading, RG6 1PS',
+            rating: 3,
             facilities: ['Hot drinks', 'Food', 'Premium wifi'],
-            distance: '1.0 km from Birla Mandir',
+            distance: '100m',
             href: '/location/1'
         }, {
-            name: 'Beyond Coffee',
-            address: 'Plot 237, Road 36, Jubilee Hills',
+            name: 'Cafe Hero',
+            address: '125 High Street, Reading, RG6 1PS',
             rating: 4,
             facilities: ['Hot drinks', 'Food', 'Premium wifi'],
-            distance: '2.5 km from Golconda Fort',
+            distance: '200m',
             href: '/location/2'
         }, {
-            name: 'Roastery Coffee House',
-            address: 'House 418, 8/2/287/12, Road 14, Banjara Hills',
+            name: 'Burger Queen',
+            address: '125 High Street, Reading, RG6 1PS',
             rating: 2,
             facilities: ['Food', 'Premium wifi'],
-            distance: '2.4 km from Golconda Fort',
+            distance: '250m',
             href: '/location/3'
         }]
     });
@@ -35,18 +35,18 @@ module.exports.homelist = function(req, res) {
   /* GET 'Location info' page */
   module.exports.locationInfo1 = function(req, res) {
     res.render('location-info1', {
-        title: 'Cafe Niloufer',
+        title: 'Starcups',
         pageHeader: {
-            title: 'Cafe Niloufer'
+            title: 'Starcups'
         },
         sidebar: {
             context: 'is on Loc8r because it has accessible wifi and space to sit down with your laptop and get some work done.',
             callToAction: 'If you\'ve been and you like it - or if you don\'t - please leave a review to help other people just like you.'
         },
         location: {
-            name: 'Cafe Niloufer',
-            address: '11-5-422/C/B, Lakdikapul',
-            rating: 4,
+            name: 'Starcups',
+            address: '125 High Street, Reading, RG6 1PS',
+            rating: 3,
             facilities: ['Hot drinks', 'Food', 'Premium wifi'],
             coords: {
                 lat: 51.455041,
@@ -84,18 +84,18 @@ module.exports.homelist = function(req, res) {
     /* GET 'Location info' page */
     module.exports.locationInfo2 = function(req, res) {
         res.render('location-info2', {
-            title: 'Gismat',
+            title: 'Cafe Hero',
             pageHeader: {
-                title: 'Gismat'
+                title: 'Cafe Hero'
             },
             sidebar: {
                 context: 'is on Loc8r because it has accessible wifi and space to sit down with your laptop and get some work done.',
                 callToAction: 'If you\'ve been and you like it - or if you don\'t - please leave a review to help other people just like you.'
             },
             location: {
-                name: 'Gismat',
+                name: 'Cafe Hero',
                 address: '125 High Street, Reading, RG6 1PS',
-                rating: 3,
+                rating: 4,
                 facilities: ['Hot drinks', 'Food', 'Premium wifi'],
                 coords: {
                     lat: 51.455041,
@@ -133,18 +133,18 @@ module.exports.homelist = function(req, res) {
         /* GET 'Location info' page */
   module.exports.locationInfo3 = function(req, res) {
     res.render('location-info3', {
-        title: 'Tree Stories Cafe',
+        title: 'Burger Queen',
         pageHeader: {
-            title: 'Tree Stories Cafe'
+            title: 'Burger Queen'
         },
         sidebar: {
             context: 'is on Loc8r because it has accessible wifi and space to sit down with your laptop and get some work done.',
             callToAction: 'If you\'ve been and you like it - or if you don\'t - please leave a review to help other people just like you.'
         },
         location: {
-            name: 'Tree Stories Cafe',
+            name: 'Burger Queen',
             address: '125 High Street, Reading, RG6 1PS',
-            rating: 3,
+            rating: 2,
             facilities: ['Hot drinks', 'Food', 'Premium wifi'],
             coords: {
                 lat: 51.455041,
