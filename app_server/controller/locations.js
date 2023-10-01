@@ -13,7 +13,7 @@ module.exports.homelist = function(req, res) {
             rating: 4,
             facilities: ['Hot drinks', 'Food', 'Premium wifi'],
             distance: '1.0 km from Birla Mandir',
-            href: '/location'
+            href: '/location/1'
         }, {
             name: 'Beyond Coffee',
             address: 'Plot 237, Road 36, Jubilee Hills',
@@ -33,8 +33,8 @@ module.exports.homelist = function(req, res) {
   };
   
   /* GET 'Location info' page */
-  module.exports.locationInfo = function(req, res) {
-    res.render('location-info', {
+  module.exports.locationInfo1 = function(req, res) {
+    res.render('location-info1', {
         title: 'Cafe Niloufer',
         pageHeader: {
             title: 'Cafe Niloufer'
@@ -180,7 +180,7 @@ module.exports.homelist = function(req, res) {
   };
 
   /* GET 'Add review' page */
-  module.exports.addReview = function(req, res) {
+  module.exports.addReview1 = function(req, res) {
     res.render('location-review-form', {
         title: 'Review Amaravathi on Loc8r',
         pageHeader: {
