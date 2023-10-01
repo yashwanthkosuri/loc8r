@@ -33,8 +33,8 @@ module.exports.homelist = function(req, res) {
   };
   
   /* GET 'Location info' page */
-  module.exports.locationInfo1 = function(req, res) {
-    res.render('location-info1', {
+  module.exports.locationInfo = function(req, res) {
+    res.render('location-info', {
         title: 'Cafe Niloufer',
         pageHeader: {
             title: 'Cafe Niloufer'
@@ -180,8 +180,8 @@ module.exports.homelist = function(req, res) {
   };
 
   /* GET 'Add review' page */
-  module.exports.addReview1 = function(req, res) {
-    res.render('location-review-form1', {
+  module.exports.addReview = function(req, res) {
+    res.render('location-review-form', {
         title: 'Review Amaravathi on Loc8r',
         pageHeader: {
             title: 'Review Amaravathi'
