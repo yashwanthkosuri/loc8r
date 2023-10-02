@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  section.login-header
+    h1 Login to Loc8r
+
+  section.login-form
+    form(action='/signin', method='post')
+      .input-group
+        label(for='username') Username or Email:
+        input#username(type='text', name='username', required)
+
+      .input-group
+        label(for='password') Password:
+        input#password(type='password', name='password', required)
+
+      .actions
+        button(type='submit') Login
+        a(href='/register') Not a member? Register Now
