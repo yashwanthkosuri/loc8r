@@ -1,8 +1,8 @@
 /* GET 'about us' page */
 module.exports.about = function(req, res) {
     res.render('generic-text', {
-        title: 'About Loc8r',
-        content: 'Loc8r was created to help people find places to sit down and get a bit of work done.'
+        title: 'About Kids channel',
+        content: 'Looking for nursery rhymes and songs for children? Kids Channel helps you find graphic videos and nursery rhymes.'
     });
   };
 
